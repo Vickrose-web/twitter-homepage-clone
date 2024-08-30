@@ -1,0 +1,176 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+body{
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.image{
+  /* position: absolute; */
+  width: 750px;
+  height: 500px;
+  text-align: center;
+  float: left;
+}
+
+.image img{
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.content{
+  width: 550px;
+  height: 400px;
+  display:flex;
+  color: white;
+  flex-wrap: nowrap;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.content h1{
+  font-family: arial;
+  font-size: 70px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.content h2{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: inherit;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.form .btn-google img{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 8px;
+  /* padding-top: 10px; */
+  
+}
+
+.btn-google{
+  font-size: 14px;
+  width: 300px;
+  height: 40px;
+  font-family: arial;
+  font-weight: 500;
+  background-color: white;
+  color: #3a3a3a;
+  border: none;
+  border-radius: 20px;
+  place-items: center;
+  display: flex;
+  padding-left: 70px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn-apple{
+  font-size: 15px;
+  width: 300px;
+  height: 40px;
+  font-family: arial;
+  font-weight: bold;
+  background-color: white;
+  color: #3a3a3a;
+  border: none;
+  border-radius: 20px;
+  place-items: center;
+  display: flex;
+  padding-left: 70px;
+  cursor: pointer;
+}
+
+.btn-apple ion-icon{
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-right: 4px;
+}
+
+hr{
+  width: 135px;
+  /* display: inline-block; */
+  border: 1px solid rgba(66, 66, 66, 0.562);
+  margin-right: 5px;
+  margin-left: 5px;  
+}
+
+.linediv{
+  display: flex;
+  font-family: arial;
+  margin-top: 10px;
+  align-items: stretch;
+}
+
+.btn-create{
+  font-size: 16px;
+  width: 300px;
+  height: 40px;
+  font-family: arial;
+  font-weight: bold;
+  background-color: rgb(26, 141, 218);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form .par{
+  font-family: arial;
+  font-size: 11px;
+}
+
+.form .par a{
+  color: rgb(26, 141, 218);
+  text-decoration: none;
+}
+
+.form h3{
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.btn-signin{
+  font-size: 16px;
+  width: 300px;
+  height: 40px;
+  font-family: arial;
+  font-weight: bold;
+  background: transparent;
+  color: rgb(26, 141, 218);
+  border: 1px solid rgba(255, 255, 255, 0.288);
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-signin:focus{
+  outline: none;
+}
+
+footer{
+  margin-top: 80px;
+}
+
+footer center{
+  word-spacing: 10px;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+footer center a{
+  color: rgba(255, 255, 255, 0.377);
+  text-decoration: none;
+}
